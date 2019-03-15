@@ -75,9 +75,3 @@
 * button-modern (max-width 185px)
 
 * button-small (width auto)
-
-записывать: 
-
-<code>
-<button class="button-default">Кнопка</button>
-</code>
