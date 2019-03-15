@@ -1,0 +1,75 @@
+// Кнопки
+@mixin button{
+	.button-default{
+		max-width: 185px;
+		width: 100%;
+		height: auto;
+		padding: 12px 8px 12px;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		vertical-align: middle;
+		cursor: pointer;
+		border-radius: 4px;
+		border: none;
+		background: transparent;
+		transition: $easeInOut-2s;
+		box-shadow: 0 1px 2px 0 rgba(215, 107, 228, 0.14);
+			&:hover{
+				box-shadow: 0 2px 5px 0 rgba(181, 107, 228, 0.37);
+			}
+	}
+	.button-modern{
+		max-width: 185px;
+		width: 100%;
+		height: auto;
+		padding: 12px 8px 12px;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		vertical-align: middle;
+		cursor: pointer;
+		border-radius: 4px;
+		border: none;
+		background: transparent;
+		transition: $easeInOut-2s;
+		border: 1px solid rgba(215, 107, 228, 0.42);
+		background: rgba(215, 107, 228, 0.42);
+
+			&:hover{
+				box-shadow: 0 1px 2px 0 rgba(215, 107, 228, 0.42);
+				background: transparent;
+			}
+	}
+	.button-small{
+		width: auto;
+		height: auto;
+		padding: 8px;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		vertical-align: middle;
+		cursor: pointer;
+		border-radius: 4px;
+		border: none;
+		background: transparent;
+		transition: $easeInOut-2s;
+		box-shadow: 0 1px 2px 0 rgba(215, 107, 228, 0.14);
+			&:hover{
+				box-shadow: 0 2px 5px 0 rgba(181, 107, 228, 0.37);
+			}
+	}
+}
+
