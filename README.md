@@ -89,3 +89,30 @@
 * text-mark-white
 
 * text-mark-violet
+
+# Заголовки и подзаколовки
+
+Да да они у меня есть ниже приведу названия классов и что внутри:
+
+* headline-big (оборачивает h1 по умолчанию 32px)
+
+* headline-mini (оборачивает h2 по умолчанию 24px)
+
+* headline (оборачивает h3 по умолчанию 18px)
+
+Записываем следующим образом
+<code>
+	
+	<div class="headline-big">
+		<h1><!-- ваш текст --></h1>
+	</div>
+
+	<div class="headline-mini">
+		<h2><!-- ваш текст --></h2>
+	</div>
+
+	<div class="headline">
+		<h3><!-- ваш текст --></h3>
+	</div>
+
+</code>
