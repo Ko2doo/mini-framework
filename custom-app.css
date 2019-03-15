@@ -128,6 +128,97 @@ h5 {
   color: #000;
 }
 
+.card {
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  padding: 0 15px 0 15px;
+}
+.card.shadow {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.19);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.19);
+}
+.card .card-header img {
+  width: 100%;
+  height: auto;
+}
+.card .card-body {
+  margin-top: 15px;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card-big {
+  width: 40%;
+  height: auto;
+  display: inline-block;
+  padding: 0 15px 0 15px;
+}
+.card-big .card-header img {
+  width: 100%;
+  height: auto;
+}
+.card-big .card-body {
+  margin-top: 15px;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card-mini {
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  padding: 0 15px 0 15px;
+}
+.card-mini .card-header img {
+  width: 100%;
+  height: auto;
+}
+.card-mini .card-body {
+  margin-top: 15px;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .button-default {
   max-width: 185px;
   width: 100%;
@@ -222,97 +313,6 @@ h5 {
 .button-small:hover {
   -webkit-box-shadow: 0 2px 5px 0 rgba(181, 107, 228, 0.37);
           box-shadow: 0 2px 5px 0 rgba(181, 107, 228, 0.37);
-}
-
-.card {
-  width: 30%;
-  height: auto;
-  display: inline-block;
-  padding: 0 15px 0 15px;
-}
-.card.shadow {
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.19);
-          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.19);
-}
-.card .card-header img {
-  width: 100%;
-  height: auto;
-}
-.card .card-body {
-  margin-top: 15px;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.card-big {
-  width: 40%;
-  height: auto;
-  display: inline-block;
-  padding: 0 15px 0 15px;
-}
-.card-big .card-header img {
-  width: 100%;
-  height: auto;
-}
-.card-big .card-body {
-  margin-top: 15px;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.card-mini {
-  width: 20%;
-  height: auto;
-  display: inline-block;
-  padding: 0 15px 0 15px;
-}
-.card-mini .card-header img {
-  width: 100%;
-  height: auto;
-}
-.card-mini .card-body {
-  margin-top: 15px;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=custom-app.css.map */
