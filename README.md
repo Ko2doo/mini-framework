@@ -12,7 +12,7 @@
 
 # Специальные классы:
 
-*content-container
+* content-container
 
 В "штуке" есть класс .content-container что то вроде обычного .container'a в bootstrap, работает так же =)
 
@@ -48,9 +48,9 @@
 
 Я использовал два шрифта на мой взгляд самые красивые (как бонус поддерживают кириллицу) это: Comfortaa и MontserratAlternates скачаны с google-fonts.
 
-*Comfortaa
+* Comfortaa
 Используется как основной.
 
-*MontserratAlternates
+* MontserratAlternates
 Используется только для заголовков всех пяти уровней
 
