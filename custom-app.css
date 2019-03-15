@@ -55,7 +55,7 @@ h5 {
 }
 
 .content-container {
-  max-width: 1173px;
+  max-width: 1170px;
   width: 100%;
   height: auto;
   display: -moz-flex;
@@ -221,6 +221,10 @@ h5 {
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.19);
           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.19);
 }
+.card .card-header img {
+  width: 100%;
+  height: auto;
+}
 .card .card-body {
   margin-top: 15px;
   display: -moz-flex;
@@ -246,6 +250,10 @@ h5 {
   display: inline-block;
   padding: 0 15px 0 15px;
 }
+.card-big .card-header img {
+  width: 100%;
+  height: auto;
+}
 .card-big .card-body {
   margin-top: 15px;
   display: -moz-flex;
@@ -270,6 +278,10 @@ h5 {
   height: auto;
   display: inline-block;
   padding: 0 15px 0 15px;
+}
+.card-mini .card-header img {
+  width: 100%;
+  height: auto;
 }
 .card-mini .card-body {
   margin-top: 15px;
