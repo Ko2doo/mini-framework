@@ -65,3 +65,19 @@
 * MontserratAlternates
 Используется только для заголовков всех пяти уровней
 
+
+# Кнопки
+
+Все кнопки прозрачны кроме второй (фиолетовая), есть три готовых кнопки это:
+
+* button-default (max-width 185px)
+
+* button-modern (max-width 185px)
+
+* button-small (width auto)
+
+записывать: 
+
+<code>
+<button class="button-default">Кнопка</button>
+</code>
