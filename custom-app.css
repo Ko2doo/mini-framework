@@ -54,6 +54,19 @@ h5 {
   font-weight: 300;
 }
 
+.text-mark-black {
+  font-weight: bold;
+  color: #000;
+}
+.text-mark-white {
+  font-weight: bold;
+  color: #fff;
+}
+.text-mark-violet {
+  font-weight: bold;
+  color: #ab0b81;
+}
+
 .content-container {
   max-width: 1170px;
   width: 100%;
