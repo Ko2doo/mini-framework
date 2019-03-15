@@ -12,4 +12,18 @@
 				//переопределяем цвет, по умолчанию он черный!
 			}
 	}
+
+	.card{
+
+			.card-header{
+				.headline{
+					text-align: center;
+				}
+				p{
+					display: block;
+					margin-top: 12px;
+					text-align: justify;
+				}
+			}
+	}
 }

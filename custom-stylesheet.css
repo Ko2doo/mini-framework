@@ -4,3 +4,11 @@
 .header .headline h3 {
   color: #5e5d5d;
 }
+.header .card .card-header .headline {
+  text-align: center;
+}
+.header .card .card-header p {
+  display: block;
+  margin-top: 12px;
+  text-align: justify;
+}
