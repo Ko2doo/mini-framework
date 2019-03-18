@@ -1,0 +1,33 @@
+@import "color-sheme";
+
+//подзаголовки и заголовки
+.headline-big{
+	text-align: center;
+		h1{
+			font:{
+				size: 32px;
+				weight: bold;
+			}
+			color: $black;
+		}
+}
+.headline-mini{
+	text-align: center;
+		h2{
+			font:{
+				size: 24px;
+				weight: bold;
+			}
+			color: $black;
+		}
+}
+.headline{
+	text-align: center;
+		h3{
+			font:{
+				size: 18px;
+				weight: bold;
+			}
+			color: $black;
+		}
+}
