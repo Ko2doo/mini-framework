@@ -4,6 +4,9 @@
 .header .headline h3 {
   color: #5e5d5d;
 }
+.header .card-container {
+  margin-top: 25px;
+}
 .header .card .card-header .headline {
   text-align: center;
 }
