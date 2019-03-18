@@ -11,6 +11,9 @@ $easeOut-2s: all 0.2s ease-out;
 $easeOut-3s: all 0.3s ease-out;
 $easeOut-5s: all 0.3s ease-out;
 
+//
+$transition-3s: .3s;
+
 
 //easeInOut
 @mixin easeInOut-2s{

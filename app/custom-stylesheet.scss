@@ -17,7 +17,7 @@
 		margin-top: 25px;
 	}
 	.card{
-
+		margin-bottom: 22px;
 			.card-header{
 				.headline{
 					text-align: center;
@@ -27,6 +27,9 @@
 					margin-top: 12px;
 					text-align: justify;
 				}
+			}
+			.card-body{
+				margin-top: 25px;
 			}
 	}
 }

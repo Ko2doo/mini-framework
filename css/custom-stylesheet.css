@@ -7,6 +7,9 @@
 .header .card-container {
   margin-top: 25px;
 }
+.header .card {
+  margin-bottom: 22px;
+}
 .header .card .card-header .headline {
   text-align: center;
 }
@@ -14,4 +17,7 @@
   display: block;
   margin-top: 12px;
   text-align: justify;
+}
+.header .card .card-body {
+  margin-top: 25px;
 }
