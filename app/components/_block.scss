@@ -1,0 +1,61 @@
+@import "../mixins/mixin.scss";
+
+// Блоки
+
+.block{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  width: 100%;
+  height: auto;
+}
+
+// Боксы
+
+.box{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px;
+  width: 100%;
+  height: auto;
+    &-xs{
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 0 8px 0 8px;
+      width: 20%;
+      height: auto;
+    }
+    &-m{
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 0 8px 0 8px;
+      width: 30%;
+      height: auto;
+    }
+}
+.box,
+.box-xs,
+.box-m{
+  @include shadow-box;
+}
