@@ -1,23 +1,24 @@
-.header .headline {
-  text-align: left;
-}
-.header .headline h3 {
-  color: #5e5d5d;
-}
 .header .card-container {
   margin-top: 25px;
 }
-.header .card {
+.header .card-big {
   margin-bottom: 22px;
 }
-.header .card .card-header .headline {
+.header .card-big .card-header {
+  margin: 0 auto;
+}
+.header .card-big .card-header img {
+  width: 275px;
+  display: block;
+  margin: 0 auto;
+}
+.header .card-big .card-header .headline-mini {
+  margin-top: 8px;
   text-align: center;
 }
-.header .card .card-header p {
-  display: block;
-  margin-top: 12px;
-  text-align: justify;
-}
-.header .card .card-body {
+.header .card-big .card-body {
   margin-top: 25px;
+}
+.header .card-big .card-body ul.list-inline {
+  margin-top: 10px;
 }

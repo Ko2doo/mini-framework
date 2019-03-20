@@ -5,31 +5,32 @@
 
 .header{
 
-	.headline{
-		text-align: left;
-			h3{
-				color: $darkGrey;
-				//переопределяем цвет, по умолчанию он черный!
-			}
-	}
 
 	.card-container{
 		margin-top: 25px;
 	}
-	.card{
+	.card-big{
 		margin-bottom: 22px;
 			.card-header{
-				.headline{
-					text-align: center;
-				}
-				p{
+				margin: 0 auto;
+				
+				img{
+					width: 275px;
 					display: block;
-					margin-top: 12px;
-					text-align: justify;
+					margin: 0 auto;
+				}
+
+				.headline-mini{
+					margin-top: 8px;
+					text-align: center;
 				}
 			}
 			.card-body{
 				margin-top: 25px;
+
+				ul.list-inline{
+					margin-top: 10px;
+				}
 			}
 	}
 }
